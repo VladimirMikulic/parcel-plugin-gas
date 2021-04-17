@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/VladimirMikulic/parcel-plugin-gas.git"
   },
-  "author": "Vladimir Mikulic <vladimir.mikulic2@gmail.com>",
+  "author": "Vladimir Mikulic",
   "license": "MIT",
   "dependencies": {
     "gas-entry-generator": "^1.1.2"
