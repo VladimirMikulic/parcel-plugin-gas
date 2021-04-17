@@ -6,6 +6,8 @@
 
 > 🌀 Parcel plugin that enables Google App Script bundling.
 
+_This is the plugin for Parcel v1. The plugin for the second version can be found [here](https://github.com/VladimirMikulic/parcel-optimizer-gas)._
+
 ## :package: Installation
 
 ```shell
