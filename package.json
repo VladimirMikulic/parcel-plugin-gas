@@ -1,8 +1,8 @@
 {
   "name": "parcel-plugin-gas",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parcel plugin that enables Google App Script bundling.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest"
   },
@@ -18,10 +18,10 @@
   "author": "Vladimir Mikulic",
   "license": "MIT",
   "dependencies": {
-    "gas-entry-generator": "^1.1.2"
+    "gas-entry-generator": "^2.1.0"
   },
   "devDependencies": {
-    "jest": "^26.2.2",
-    "parcel-bundler": "^1.12.4"
+    "jest": "^27.0.1",
+    "parcel-bundler": "^1.12.5"
   }
 }
