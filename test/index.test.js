@@ -1,4 +1,4 @@
-var fs = require("fs");
+const fs = require("fs");
 const path = require("path");
 const Bundler = require("parcel-bundler");
 const parcelPluginGAS = require("../lib/index");
@@ -16,8 +16,7 @@ describe("index.js", () => {
     });
 
     await parcelPluginGAS(bundler);
-
-    const bundle = await bundler.bundle();
+    await bundler.bundle();
   });
 
   it("tests that function declarations are generated correctly", () => {
